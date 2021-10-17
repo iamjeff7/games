@@ -5,7 +5,7 @@
 body {
     display: flex;
     justify-content: center;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     margin: 0;
 }
 
@@ -14,13 +14,17 @@ body, .input {
 }
 
 .container {
-    padding-top: 10rem;
+    /*padding-top: 40%;*/
     border: 0px solid;
     border-radius: .5rem;
     width: 99%;
     max-width: 100%;
     font-size: 4rem;
     text-align: center;
+    position: relative;
+    top: 40%;
+    position: absolute;
+    transform: translate(0, -50%);
 }
 
 .input {
